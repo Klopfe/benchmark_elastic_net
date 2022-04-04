@@ -10,8 +10,8 @@ class Objective(BaseObjective):
     name = "Enet"
 
     parameters = {
-        'l1_ratio': [0.9, 0.5],
-        'reg': [0.1, 0.01],
+        'l1_ratio': [0.5],
+        'reg': [0.1, 0.01, 0.001],
         'fit_intercept': [False]
     }
 
