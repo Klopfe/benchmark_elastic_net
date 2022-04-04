@@ -11,7 +11,8 @@ class Dataset(BaseDataset):
     name = "libsvm"
 
     parameters = {
-        'dataset': ["bodyfat", "leukemia", "rcv1.binary"],
+        'dataset': ["bodyfat", "leukemia", "rcv1.binary",
+                    "finance", "news20.binary"],
     }
 
     install_cmd = 'conda'
